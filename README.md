@@ -22,7 +22,7 @@ swift package-collection add https://raw.githubusercontent.com/backslash-f/swift
 In **Xcode**, go to `File / Add Packages...`  
 The added collection should display:
 
-![swift package collection]()
+![swift package collection](https://raw.githubusercontent.com/backslash-f/swift-package-collection/main/packages.png)
 
 # Note
 I'm not [signing the collection](https://swift.org/blog/package-collections/) just yet, [it sounds like too much trouble](https://forums.swift.org/t/package-collection-signing/43855). Maybe later.
