@@ -10,3 +10,19 @@ Swift Package Collections can help you discover, explore and import new packages
 Discover improvements in the Swift Package workflow using Collections, and learn how you can curate, create,
 sign, and share your own Swift Package Collections.
 ```
+
+# Integration
+
+In **Terminal**, run:
+
+```bash
+swift package-collection add https://raw.githubusercontent.com/backslash-f/swift-package-collection/main/collection.json --trust-unsigned
+```
+
+In **Xcode**, go to `File / Add Packages...`  
+The added collection should display:
+
+![swift package collection]()
+
+# Note
+I'm not [signing the collection](https://swift.org/blog/package-collections/) just yet, [it sounds like too much trouble](https://forums.swift.org/t/package-collection-signing/43855). Maybe later.
