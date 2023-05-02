@@ -1,0 +1,64 @@
+{
+    "name": "backslash-f Swift Packages",
+    "overview": "A collection of Swift Packages created by backslash-f",
+    "keywords":
+    [
+        "aes",
+        "advanced encryption standard",
+        "async",
+        "backslash-f",
+        "Combine",
+        "CommonCrypto",
+        "CoreGraphics",
+        "device",
+        "extensions",
+        "game controller",
+        "game development",
+        "GameplayKit",
+        "image manipulation",
+        "logger",
+        "OSLog",
+        "SpriteKit",
+        "state machine",
+        "threading",
+        "unified logging",
+        "util"
+    ],
+    "packages":
+    [
+        {
+            "url": "https://github.com/backslash-f/aescryptable.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/alma.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/applogger.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/cgkstatemachine.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/cskscene.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/device.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/extensions.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/gcoverseer.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/image-tools.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/worker.git"
+        }
+    ],
+    "author":
+    {
+        "name": "backslash-f"
+    }
+}
