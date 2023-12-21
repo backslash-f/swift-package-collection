@@ -1,1371 +1,1639 @@
 {
-  "formatVersion" : "1.0",
-  "generatedAt" : "2023-12-21T10:00:49Z",
-  "generatedBy" : {
-    "name" : "backslash-f"
-  },
-  "keywords" : [
-    "aes",
-    "advanced encryption standard",
-    "automation",
-    "backslash-f",
-    "bot",
-    "Combine",
-    "CoreGraphics",
-    "crypto",
-    "device",
-    "extensions",
-    "game controller",
-    "game development",
-    "GameplayKit",
-    "image manipulation",
-    "logger",
-    "OSLog",
-    "SpriteKit",
-    "state machine",
-    "Swift Crypto",
-    "trading",
-    "unified logging",
-    "util"
-  ],
-  "name" : "backslash-f Swift Packages",
-  "overview" : "A collection of Swift Packages by backslash-f",
-  "packages" : [
+    "formatVersion": "1.0",
+    "generatedAt": "2023-12-21T10:00:49Z",
+    "generatedBy":
     {
-      "keywords" : [
+        "name": "backslash-f"
+    },
+    "keywords":
+    [
         "aes",
-        "commoncrypto",
-        "swift",
-        "swift-package-manager"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/backslash-f/aescryptable/master/LICENSE"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/aescryptable/master/README.md",
-      "summary" : "AES encryption/decryption with random iv. Swift 5 and up.",
-      "url" : "https://github.com/backslash-f/aescryptable.git",
-      "versions" : [
-        {
-          "defaultToolsVersion" : "5.1",
-          "manifests" : {
-            "5.1" : {
-              "packageName" : "AESCryptable",
-              "products" : [
-                {
-                  "name" : "AESCryptable",
-                  "targets" : [
-                    "AESCryptable"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "AESCryptable",
-                  "name" : "AESCryptable"
-                }
-              ],
-              "toolsVersion" : "5.1"
-            }
-          },
-          "version" : "v2.0.0"
-        },
-        {
-          "defaultToolsVersion" : "5.0",
-          "manifests" : {
-            "5.0" : {
-              "packageName" : "AESCryptable",
-              "products" : [
-                {
-                  "name" : "AESCryptable",
-                  "targets" : [
-                    "AESCryptable"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "AESCryptable",
-                  "name" : "AESCryptable"
-                }
-              ],
-              "toolsVersion" : "5.0"
-            }
-          },
-          "version" : "v1.0.3"
-        },
-        {
-          "defaultToolsVersion" : "5.0",
-          "manifests" : {
-            "5.0" : {
-              "packageName" : "AESCryptable",
-              "products" : [
-                {
-                  "name" : "AESCryptable",
-                  "targets" : [
-                    "AESCryptable"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "AESCryptable",
-                  "name" : "AESCryptable"
-                }
-              ],
-              "toolsVersion" : "5.0"
-            }
-          },
-          "version" : "v1.0.2"
-        },
-        {
-          "defaultToolsVersion" : "5.0",
-          "manifests" : {
-            "5.0" : {
-              "packageName" : "AESCryptable",
-              "products" : [
-                {
-                  "name" : "AESCryptable",
-                  "targets" : [
-                    "AESCryptable"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "AESCryptable",
-                  "name" : "AESCryptable"
-                }
-              ],
-              "toolsVersion" : "5.0"
-            }
-          },
-          "version" : "v1.0.1"
-        }
-      ]
-    },
-    {
-      "keywords" : [
-        "game-development",
-        "game-engine",
-        "games"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/backslash-f/alma/main/LICENSE"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/alma/main/README.md",
-      "summary" : "The ALMA Game Engine 👾",
-      "url" : "https://github.com/backslash-f/alma.git",
-      "versions" : [
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "ALMA",
-              "products" : [
-                {
-                  "name" : "ALMA",
-                  "targets" : [
-                    "ALMA"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ALMA",
-                  "name" : "ALMA"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "version" : "v0.0.5"
-        },
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "ALMA",
-              "products" : [
-                {
-                  "name" : "ALMA",
-                  "targets" : [
-                    "ALMA"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ALMA",
-                  "name" : "ALMA"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "version" : "v0.0.4"
-        },
-        {
-          "defaultToolsVersion" : "5.4",
-          "manifests" : {
-            "5.4" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "ALMA",
-              "products" : [
-                {
-                  "name" : "ALMA",
-                  "targets" : [
-                    "ALMA"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ALMA",
-                  "name" : "ALMA"
-                }
-              ],
-              "toolsVersion" : "5.4"
-            }
-          },
-          "version" : "v0.0.3"
-        }
-      ]
-    },
-    {
-      "keywords" : [
-        "logger",
-        "logging",
-        "oslog",
-        "unified-logging"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/backslash-f/applogger/master/LICENSE"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/applogger/master/README.md",
-      "summary" : "Wrapper around Apple's newest Swift logging APIs (OSLog / Unified Logging / Logger).",
-      "url" : "https://github.com/backslash-f/applogger.git",
-      "versions" : [
-        {
-          "defaultToolsVersion" : "5.3",
-          "manifests" : {
-            "5.3" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "AppLogger",
-              "products" : [
-                {
-                  "name" : "AppLogger",
-                  "targets" : [
-                    "AppLogger"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "AppLogger",
-                  "name" : "AppLogger"
-                }
-              ],
-              "toolsVersion" : "5.3"
-            }
-          },
-          "version" : "v1.1.0"
-        },
-        {
-          "defaultToolsVersion" : "5.3",
-          "manifests" : {
-            "5.3" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "AppLogger",
-              "products" : [
-                {
-                  "name" : "AppLogger",
-                  "targets" : [
-                    "AppLogger"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "AppLogger",
-                  "name" : "AppLogger"
-                }
-              ],
-              "toolsVersion" : "5.3"
-            }
-          },
-          "version" : "v1.0.0"
-        }
-      ]
-    },
-    {
-      "keywords" : [
-        "combine",
-        "gameplaykit",
-        "state-machine",
-        "swift"
-      ],
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/cgkstatemachine/main/README.md",
-      "summary" : "A custom GKStateMachine subclass that allows GKState changes to be observed using Combine.",
-      "url" : "https://github.com/backslash-f/cgkstatemachine.git",
-      "versions" : [
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "CGKStateMachine",
-              "products" : [
-                {
-                  "name" : "CGKStateMachine",
-                  "targets" : [
-                    "CGKStateMachine"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "CGKStateMachine",
-                  "name" : "CGKStateMachine"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "version" : "v0.1.0"
-        }
-      ]
-    },
-    {
-      "keywords" : [
-        "debugging",
-        "game-controllers",
-        "spritekit"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/backslash-f/cskscene/main/LICENSE"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/cskscene/main/README.md",
-      "summary" : "A custom SKScene subclass with debug options enabled by default and the ability to observe game controllers.",
-      "url" : "https://github.com/backslash-f/cskscene.git",
-      "versions" : [
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "CSKScene",
-              "products" : [
-                {
-                  "name" : "CSKScene",
-                  "targets" : [
-                    "CSKScene"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "CSKScene",
-                  "name" : "CSKScene"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "version" : "v0.2.6"
-        },
-        {
-          "defaultToolsVersion" : "5.4",
-          "manifests" : {
-            "5.4" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "CSKScene",
-              "products" : [
-                {
-                  "name" : "CSKScene",
-                  "targets" : [
-                    "CSKScene"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "CSKScene",
-                  "name" : "CSKScene"
-                }
-              ],
-              "toolsVersion" : "5.4"
-            }
-          },
-          "version" : "v0.2.5"
-        },
-        {
-          "defaultToolsVersion" : "5.4",
-          "manifests" : {
-            "5.4" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "CSKScene",
-              "products" : [
-                {
-                  "name" : "CSKScene",
-                  "targets" : [
-                    "CSKScene"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "CSKScene",
-                  "name" : "CSKScene"
-                }
-              ],
-              "toolsVersion" : "5.4"
-            }
-          },
-          "version" : "v0.2.4"
-        }
-      ]
-    },
-    {
-      "keywords" : [
-        "device-orientation",
-        "device-type",
-        "operating-system",
-        "swift",
-        "swift-package"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/backslash-f/device/master/LICENSE"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/device/master/README.md",
-      "summary" : " Retrieves information about a host device. ",
-      "url" : "https://github.com/backslash-f/device.git",
-      "versions" : [
-        {
-          "defaultToolsVersion" : "5.4",
-          "manifests" : {
-            "5.4" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "Device",
-              "products" : [
-                {
-                  "name" : "Device",
-                  "targets" : [
-                    "Device"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Device",
-                  "name" : "Device"
-                }
-              ],
-              "toolsVersion" : "5.4"
-            }
-          },
-          "version" : "v1.1.1"
-        },
-        {
-          "defaultToolsVersion" : "5.3",
-          "manifests" : {
-            "5.3" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "Device",
-              "products" : [
-                {
-                  "name" : "Device",
-                  "targets" : [
-                    "Device"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Device",
-                  "name" : "Device"
-                }
-              ],
-              "toolsVersion" : "5.3"
-            }
-          },
-          "version" : "v1.1.0"
-        },
-        {
-          "defaultToolsVersion" : "5.3",
-          "manifests" : {
-            "5.3" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "7.0"
-                }
-              ],
-              "packageName" : "Device",
-              "products" : [
-                {
-                  "name" : "Device",
-                  "targets" : [
-                    "Device"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Device",
-                  "name" : "Device"
-                }
-              ],
-              "toolsVersion" : "5.3"
-            }
-          },
-          "version" : "v1.0.0"
-        }
-      ]
-    },
-    {
-      "keywords" : [
-
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/backslash-f/extensions/main/LICENSE?token=AAFCK52ZBEJZIXXRFNJGKSTFQQGP6"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/extensions/main/README.md?token=AAFCK5Y3RKTPDSYSXA63FGLFQQGP6",
-      "summary" : "A collection of useful Swift / SwiftUI extensions.",
-      "url" : "https://github.com/backslash-f/extensions.git",
-      "versions" : [
-        {
-          "defaultToolsVersion" : "5.7",
-          "manifests" : {
-            "5.7" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "15.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "13.0"
-                }
-              ],
-              "packageName" : "Extensions",
-              "products" : [
-                {
-                  "name" : "Extensions",
-                  "targets" : [
-                    "Extensions"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Extensions",
-                  "name" : "Extensions"
-                }
-              ],
-              "toolsVersion" : "5.7"
-            }
-          },
-          "version" : "v0.11.1"
-        },
-        {
-          "defaultToolsVersion" : "5.7",
-          "manifests" : {
-            "5.7" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "15.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "13.0"
-                }
-              ],
-              "packageName" : "Extensions",
-              "products" : [
-                {
-                  "name" : "Extensions",
-                  "targets" : [
-                    "Extensions"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Extensions",
-                  "name" : "Extensions"
-                }
-              ],
-              "toolsVersion" : "5.7"
-            }
-          },
-          "version" : "v0.11.0"
-        },
-        {
-          "defaultToolsVersion" : "5.7",
-          "manifests" : {
-            "5.7" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "15.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "13.0"
-                }
-              ],
-              "packageName" : "Extensions",
-              "products" : [
-                {
-                  "name" : "Extensions",
-                  "targets" : [
-                    "Extensions"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Extensions",
-                  "name" : "Extensions"
-                }
-              ],
-              "toolsVersion" : "5.7"
-            }
-          },
-          "version" : "v0.10.0"
-        }
-      ]
-    },
-    {
-      "keywords" : [
-        "combine",
-        "game-controller",
-        "game-development",
-        "swift"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/backslash-f/gcoverseer/main/LICENSE"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/gcoverseer/main/README.md",
-      "summary" : "Observe and manage game controllers using Combine.",
-      "url" : "https://github.com/backslash-f/gcoverseer.git",
-      "versions" : [
-        {
-          "defaultToolsVersion" : "5.3",
-          "manifests" : {
-            "5.3" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                }
-              ],
-              "packageName" : "GCOverseer",
-              "products" : [
-                {
-                  "name" : "GCOverseer",
-                  "targets" : [
-                    "GCOverseer"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "GCOverseer",
-                  "name" : "GCOverseer"
-                }
-              ],
-              "toolsVersion" : "5.3"
-            }
-          },
-          "version" : "v0.2.2"
-        },
-        {
-          "defaultToolsVersion" : "5.3",
-          "manifests" : {
-            "5.3" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                }
-              ],
-              "packageName" : "GCOverseer",
-              "products" : [
-                {
-                  "name" : "GCOverseer",
-                  "targets" : [
-                    "GCOverseer"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "GCOverseer",
-                  "name" : "GCOverseer"
-                }
-              ],
-              "toolsVersion" : "5.3"
-            }
-          },
-          "version" : "v0.2.1"
-        },
-        {
-          "defaultToolsVersion" : "5.3",
-          "manifests" : {
-            "5.3" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "14.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                }
-              ],
-              "packageName" : "GCOverseer",
-              "products" : [
-                {
-                  "name" : "GCOverseer",
-                  "targets" : [
-                    "GCOverseer"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "GCOverseer",
-                  "name" : "GCOverseer"
-                }
-              ],
-              "toolsVersion" : "5.3"
-            }
-          },
-          "version" : "v0.2.0"
-        }
-      ]
-    },
-    {
-      "keywords" : [
-
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/backslash-f/image-tools/main/LICENSE?token=AAFCK5Z6I3CJFICB47KMZBTFQQGQO"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/image-tools/main/README.md?token=AAFCK52QC6BZWB6OKFINWILFQQGQO",
-      "summary" : "Multiplatform Core Graphics wrapper.",
-      "url" : "https://github.com/backslash-f/image-tools.git",
-      "versions" : [
-        {
-          "defaultToolsVersion" : "5.7",
-          "manifests" : {
-            "5.7" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "16.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "13.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                }
-              ],
-              "packageName" : "ImageTools",
-              "products" : [
-                {
-                  "name" : "ImageTools",
-                  "targets" : [
-                    "ImageTools"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ImageTools",
-                  "name" : "ImageTools"
-                }
-              ],
-              "toolsVersion" : "5.7"
-            }
-          },
-          "version" : "v0.3.1"
-        },
-        {
-          "defaultToolsVersion" : "5.7",
-          "manifests" : {
-            "5.7" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "16.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "13.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                }
-              ],
-              "packageName" : "ImageTools",
-              "products" : [
-                {
-                  "name" : "ImageTools",
-                  "targets" : [
-                    "ImageTools"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ImageTools",
-                  "name" : "ImageTools"
-                }
-              ],
-              "toolsVersion" : "5.7"
-            }
-          },
-          "version" : "v0.3.0"
-        },
-        {
-          "defaultToolsVersion" : "5.7",
-          "manifests" : {
-            "5.7" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "16.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "13.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "14.0"
-                }
-              ],
-              "packageName" : "ImageTools",
-              "products" : [
-                {
-                  "name" : "ImageTools",
-                  "targets" : [
-                    "ImageTools"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ImageTools",
-                  "name" : "ImageTools"
-                }
-              ],
-              "toolsVersion" : "5.7"
-            }
-          },
-          "version" : "v0.2.1"
-        }
-      ]
-    },
-    {
-      "keywords" : [
-        "api",
-        "binance",
+        "advanced encryption standard",
+        "automation",
+        "backslash-f",
         "bot",
+        "Combine",
+        "CoreGraphics",
         "crypto",
-        "kucoin",
-        "swift",
+        "device",
+        "extensions",
+        "game controller",
+        "game development",
+        "GameplayKit",
+        "image manipulation",
+        "logger",
+        "OSLog",
+        "SpriteKit",
+        "state machine",
+        "Swift Crypto",
         "trading",
-        "webhook"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/backslash-f/swift-trader/main/LICENSE"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/backslash-f/swift-trader/main/README.md",
-      "summary" : "A Swift package for connecting and trading on crypto exchanges such as Kucoin and Binance.",
-      "url" : "https://github.com/backslash-f/swift-trader.git",
-      "versions" : [
+        "unified logging",
+        "util"
+    ],
+    "name": "backslash-f Swift Packages",
+    "overview": "A collection of Swift Packages by backslash-f",
+    "packages":
+    [
         {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
+            "keywords":
+            [
+                "aes",
+                "commoncrypto",
+                "swift",
+                "swift-package-manager"
+            ],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/aescryptable/master/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/aescryptable/master/README.md",
+            "summary": "AES encryption/decryption with random iv. Swift 5 and up.",
+            "url": "https://github.com/backslash-f/aescryptable.git",
+            "versions":
+            [
                 {
-                  "name" : "macos",
-                  "version" : "12.0"
+                    "defaultToolsVersion": "5.1",
+                    "manifests":
+                    {
+                        "5.1":
+                        {
+                            "packageName": "AESCryptable",
+                            "products":
+                            [
+                                {
+                                    "name": "AESCryptable",
+                                    "targets":
+                                    [
+                                        "AESCryptable"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "AESCryptable",
+                                    "name": "AESCryptable"
+                                }
+                            ],
+                            "toolsVersion": "5.1"
+                        }
+                    },
+                    "version": "v2.0.0"
                 },
                 {
-                  "name" : "ios",
-                  "version" : "15.0"
-                }
-              ],
-              "packageName" : "SwiftTrader",
-              "products" : [
+                    "defaultToolsVersion": "5.0",
+                    "manifests":
+                    {
+                        "5.0":
+                        {
+                            "packageName": "AESCryptable",
+                            "products":
+                            [
+                                {
+                                    "name": "AESCryptable",
+                                    "targets":
+                                    [
+                                        "AESCryptable"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "AESCryptable",
+                                    "name": "AESCryptable"
+                                }
+                            ],
+                            "toolsVersion": "5.0"
+                        }
+                    },
+                    "version": "v1.0.3"
+                },
                 {
-                  "name" : "SwiftTrader",
-                  "targets" : [
-                    "SwiftTrader"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
+                    "defaultToolsVersion": "5.0",
+                    "manifests":
+                    {
+                        "5.0":
+                        {
+                            "packageName": "AESCryptable",
+                            "products":
+                            [
+                                {
+                                    "name": "AESCryptable",
+                                    "targets":
+                                    [
+                                        "AESCryptable"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "AESCryptable",
+                                    "name": "AESCryptable"
+                                }
+                            ],
+                            "toolsVersion": "5.0"
+                        }
+                    },
+                    "version": "v1.0.2"
+                },
                 {
-                  "moduleName" : "SwiftTrader",
-                  "name" : "SwiftTrader"
+                    "defaultToolsVersion": "5.0",
+                    "manifests":
+                    {
+                        "5.0":
+                        {
+                            "packageName": "AESCryptable",
+                            "products":
+                            [
+                                {
+                                    "name": "AESCryptable",
+                                    "targets":
+                                    [
+                                        "AESCryptable"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "AESCryptable",
+                                    "name": "AESCryptable"
+                                }
+                            ],
+                            "toolsVersion": "5.0"
+                        }
+                    },
+                    "version": "v1.0.1"
                 }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "version" : "v0.16.2"
+            ]
         },
         {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
+            "keywords":
+            [
+                "game-development",
+                "game-engine",
+                "games"
+            ],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/alma/main/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/alma/main/README.md",
+            "summary": "The ALMA Game Engine 👾",
+            "url": "https://github.com/backslash-f/alma.git",
+            "versions":
+            [
                 {
-                  "name" : "macos",
-                  "version" : "12.0"
+                    "defaultToolsVersion": "5.5",
+                    "manifests":
+                    {
+                        "5.5":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "ALMA",
+                            "products":
+                            [
+                                {
+                                    "name": "ALMA",
+                                    "targets":
+                                    [
+                                        "ALMA"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "ALMA",
+                                    "name": "ALMA"
+                                }
+                            ],
+                            "toolsVersion": "5.5"
+                        }
+                    },
+                    "version": "v0.0.5"
                 },
                 {
-                  "name" : "ios",
-                  "version" : "15.0"
-                }
-              ],
-              "packageName" : "SwiftTrader",
-              "products" : [
+                    "defaultToolsVersion": "5.5",
+                    "manifests":
+                    {
+                        "5.5":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "ALMA",
+                            "products":
+                            [
+                                {
+                                    "name": "ALMA",
+                                    "targets":
+                                    [
+                                        "ALMA"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "ALMA",
+                                    "name": "ALMA"
+                                }
+                            ],
+                            "toolsVersion": "5.5"
+                        }
+                    },
+                    "version": "v0.0.4"
+                },
                 {
-                  "name" : "SwiftTrader",
-                  "targets" : [
-                    "SwiftTrader"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
+                    "defaultToolsVersion": "5.4",
+                    "manifests":
+                    {
+                        "5.4":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "ALMA",
+                            "products":
+                            [
+                                {
+                                    "name": "ALMA",
+                                    "targets":
+                                    [
+                                        "ALMA"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "ALMA",
+                                    "name": "ALMA"
+                                }
+                            ],
+                            "toolsVersion": "5.4"
+                        }
+                    },
+                    "version": "v0.0.3"
                 }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "SwiftTrader",
-                  "name" : "SwiftTrader"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "version" : "v0.16.1"
+            ]
         },
         {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
+            "keywords":
+            [
+                "logger",
+                "logging",
+                "oslog",
+                "unified-logging"
+            ],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/applogger/master/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/applogger/master/README.md",
+            "summary": "Wrapper around Apple's newest Swift logging APIs (OSLog / Unified Logging / Logger).",
+            "url": "https://github.com/backslash-f/applogger.git",
+            "versions":
+            [
                 {
-                  "name" : "macos",
-                  "version" : "12.0"
+                    "defaultToolsVersion": "5.3",
+                    "manifests":
+                    {
+                        "5.3":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "AppLogger",
+                            "products":
+                            [
+                                {
+                                    "name": "AppLogger",
+                                    "targets":
+                                    [
+                                        "AppLogger"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "AppLogger",
+                                    "name": "AppLogger"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "v1.1.0"
                 },
                 {
-                  "name" : "ios",
-                  "version" : "15.0"
+                    "defaultToolsVersion": "5.3",
+                    "manifests":
+                    {
+                        "5.3":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "AppLogger",
+                            "products":
+                            [
+                                {
+                                    "name": "AppLogger",
+                                    "targets":
+                                    [
+                                        "AppLogger"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "AppLogger",
+                                    "name": "AppLogger"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "v1.0.0"
                 }
-              ],
-              "packageName" : "SwiftTrader",
-              "products" : [
+            ]
+        },
+        {
+            "keywords":
+            [
+                "combine",
+                "gameplaykit",
+                "state-machine",
+                "swift"
+            ],
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/cgkstatemachine/main/README.md",
+            "summary": "A custom GKStateMachine subclass that allows GKState changes to be observed using Combine.",
+            "url": "https://github.com/backslash-f/cgkstatemachine.git",
+            "versions":
+            [
                 {
-                  "name" : "SwiftTrader",
-                  "targets" : [
-                    "SwiftTrader"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
+                    "defaultToolsVersion": "5.5",
+                    "manifests":
+                    {
+                        "5.5":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "CGKStateMachine",
+                            "products":
+                            [
+                                {
+                                    "name": "CGKStateMachine",
+                                    "targets":
+                                    [
+                                        "CGKStateMachine"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "CGKStateMachine",
+                                    "name": "CGKStateMachine"
+                                }
+                            ],
+                            "toolsVersion": "5.5"
+                        }
+                    },
+                    "version": "v0.1.0"
                 }
-              ],
-              "targets" : [
+            ]
+        },
+        {
+            "keywords":
+            [
+                "debugging",
+                "game-controllers",
+                "spritekit"
+            ],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/cskscene/main/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/cskscene/main/README.md",
+            "summary": "A custom SKScene subclass with debug options enabled by default and the ability to observe game controllers.",
+            "url": "https://github.com/backslash-f/cskscene.git",
+            "versions":
+            [
                 {
-                  "moduleName" : "SwiftTrader",
-                  "name" : "SwiftTrader"
+                    "defaultToolsVersion": "5.5",
+                    "manifests":
+                    {
+                        "5.5":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "CSKScene",
+                            "products":
+                            [
+                                {
+                                    "name": "CSKScene",
+                                    "targets":
+                                    [
+                                        "CSKScene"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "CSKScene",
+                                    "name": "CSKScene"
+                                }
+                            ],
+                            "toolsVersion": "5.5"
+                        }
+                    },
+                    "version": "v0.2.6"
+                },
+                {
+                    "defaultToolsVersion": "5.4",
+                    "manifests":
+                    {
+                        "5.4":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "CSKScene",
+                            "products":
+                            [
+                                {
+                                    "name": "CSKScene",
+                                    "targets":
+                                    [
+                                        "CSKScene"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "CSKScene",
+                                    "name": "CSKScene"
+                                }
+                            ],
+                            "toolsVersion": "5.4"
+                        }
+                    },
+                    "version": "v0.2.5"
+                },
+                {
+                    "defaultToolsVersion": "5.4",
+                    "manifests":
+                    {
+                        "5.4":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "CSKScene",
+                            "products":
+                            [
+                                {
+                                    "name": "CSKScene",
+                                    "targets":
+                                    [
+                                        "CSKScene"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "CSKScene",
+                                    "name": "CSKScene"
+                                }
+                            ],
+                            "toolsVersion": "5.4"
+                        }
+                    },
+                    "version": "v0.2.4"
                 }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "version" : "0.16.0"
+            ]
+        },
+        {
+            "keywords":
+            [
+                "device-orientation",
+                "device-type",
+                "operating-system",
+                "swift",
+                "swift-package"
+            ],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/device/master/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/device/master/README.md",
+            "summary": " Retrieves information about a host device. ",
+            "url": "https://github.com/backslash-f/device.git",
+            "versions":
+            [
+                {
+                    "defaultToolsVersion": "5.4",
+                    "manifests":
+                    {
+                        "5.4":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "Device",
+                            "products":
+                            [
+                                {
+                                    "name": "Device",
+                                    "targets":
+                                    [
+                                        "Device"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "Device",
+                                    "name": "Device"
+                                }
+                            ],
+                            "toolsVersion": "5.4"
+                        }
+                    },
+                    "version": "v1.1.1"
+                },
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests":
+                    {
+                        "5.3":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "Device",
+                            "products":
+                            [
+                                {
+                                    "name": "Device",
+                                    "targets":
+                                    [
+                                        "Device"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "Device",
+                                    "name": "Device"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "v1.1.0"
+                },
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests":
+                    {
+                        "5.3":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "watchos",
+                                    "version": "7.0"
+                                }
+                            ],
+                            "packageName": "Device",
+                            "products":
+                            [
+                                {
+                                    "name": "Device",
+                                    "targets":
+                                    [
+                                        "Device"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "Device",
+                                    "name": "Device"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "v1.0.0"
+                }
+            ]
+        },
+        {
+            "keywords":
+            [],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/extensions/main/LICENSE?token=AAFCK52ZBEJZIXXRFNJGKSTFQQGP6"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/extensions/main/README.md?token=AAFCK5Y3RKTPDSYSXA63FGLFQQGP6",
+            "summary": "A collection of useful Swift / SwiftUI extensions.",
+            "url": "https://github.com/backslash-f/extensions.git",
+            "versions":
+            [
+                {
+                    "defaultToolsVersion": "5.7",
+                    "manifests":
+                    {
+                        "5.7":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "15.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Extensions",
+                            "products":
+                            [
+                                {
+                                    "name": "Extensions",
+                                    "targets":
+                                    [
+                                        "Extensions"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "Extensions",
+                                    "name": "Extensions"
+                                }
+                            ],
+                            "toolsVersion": "5.7"
+                        }
+                    },
+                    "version": "v0.11.1"
+                },
+                {
+                    "defaultToolsVersion": "5.7",
+                    "manifests":
+                    {
+                        "5.7":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "15.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Extensions",
+                            "products":
+                            [
+                                {
+                                    "name": "Extensions",
+                                    "targets":
+                                    [
+                                        "Extensions"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "Extensions",
+                                    "name": "Extensions"
+                                }
+                            ],
+                            "toolsVersion": "5.7"
+                        }
+                    },
+                    "version": "v0.11.0"
+                },
+                {
+                    "defaultToolsVersion": "5.7",
+                    "manifests":
+                    {
+                        "5.7":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "15.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "13.0"
+                                }
+                            ],
+                            "packageName": "Extensions",
+                            "products":
+                            [
+                                {
+                                    "name": "Extensions",
+                                    "targets":
+                                    [
+                                        "Extensions"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "Extensions",
+                                    "name": "Extensions"
+                                }
+                            ],
+                            "toolsVersion": "5.7"
+                        }
+                    },
+                    "version": "v0.10.0"
+                }
+            ]
+        },
+        {
+            "keywords":
+            [
+                "combine",
+                "game-controller",
+                "game-development",
+                "swift"
+            ],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/gcoverseer/main/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/gcoverseer/main/README.md",
+            "summary": "Observe and manage game controllers using Combine.",
+            "url": "https://github.com/backslash-f/gcoverseer.git",
+            "versions":
+            [
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests":
+                    {
+                        "5.3":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                }
+                            ],
+                            "packageName": "GCOverseer",
+                            "products":
+                            [
+                                {
+                                    "name": "GCOverseer",
+                                    "targets":
+                                    [
+                                        "GCOverseer"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "GCOverseer",
+                                    "name": "GCOverseer"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "v0.2.2"
+                },
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests":
+                    {
+                        "5.3":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                }
+                            ],
+                            "packageName": "GCOverseer",
+                            "products":
+                            [
+                                {
+                                    "name": "GCOverseer",
+                                    "targets":
+                                    [
+                                        "GCOverseer"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "GCOverseer",
+                                    "name": "GCOverseer"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "v0.2.1"
+                },
+                {
+                    "defaultToolsVersion": "5.3",
+                    "manifests":
+                    {
+                        "5.3":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "14.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "11.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                }
+                            ],
+                            "packageName": "GCOverseer",
+                            "products":
+                            [
+                                {
+                                    "name": "GCOverseer",
+                                    "targets":
+                                    [
+                                        "GCOverseer"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "GCOverseer",
+                                    "name": "GCOverseer"
+                                }
+                            ],
+                            "toolsVersion": "5.3"
+                        }
+                    },
+                    "version": "v0.2.0"
+                }
+            ]
+        },
+        {
+            "keywords":
+            [],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/image-tools/main/LICENSE?token=AAFCK5Z6I3CJFICB47KMZBTFQQGQO"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/image-tools/main/README.md?token=AAFCK52QC6BZWB6OKFINWILFQQGQO",
+            "summary": "Multiplatform Core Graphics wrapper.",
+            "url": "https://github.com/backslash-f/image-tools.git",
+            "versions":
+            [
+                {
+                    "defaultToolsVersion": "5.7",
+                    "manifests":
+                    {
+                        "5.7":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "16.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                }
+                            ],
+                            "packageName": "ImageTools",
+                            "products":
+                            [
+                                {
+                                    "name": "ImageTools",
+                                    "targets":
+                                    [
+                                        "ImageTools"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "ImageTools",
+                                    "name": "ImageTools"
+                                }
+                            ],
+                            "toolsVersion": "5.7"
+                        }
+                    },
+                    "version": "v0.3.1"
+                },
+                {
+                    "defaultToolsVersion": "5.7",
+                    "manifests":
+                    {
+                        "5.7":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "16.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                }
+                            ],
+                            "packageName": "ImageTools",
+                            "products":
+                            [
+                                {
+                                    "name": "ImageTools",
+                                    "targets":
+                                    [
+                                        "ImageTools"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "ImageTools",
+                                    "name": "ImageTools"
+                                }
+                            ],
+                            "toolsVersion": "5.7"
+                        }
+                    },
+                    "version": "v0.3.0"
+                },
+                {
+                    "defaultToolsVersion": "5.7",
+                    "manifests":
+                    {
+                        "5.7":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "ios",
+                                    "version": "16.0"
+                                },
+                                {
+                                    "name": "macos",
+                                    "version": "13.0"
+                                },
+                                {
+                                    "name": "tvos",
+                                    "version": "14.0"
+                                }
+                            ],
+                            "packageName": "ImageTools",
+                            "products":
+                            [
+                                {
+                                    "name": "ImageTools",
+                                    "targets":
+                                    [
+                                        "ImageTools"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "ImageTools",
+                                    "name": "ImageTools"
+                                }
+                            ],
+                            "toolsVersion": "5.7"
+                        }
+                    },
+                    "version": "v0.2.1"
+                }
+            ]
+        },
+        {
+            "keywords":
+            [
+                "api",
+                "binance",
+                "bot",
+                "crypto",
+                "kucoin",
+                "swift",
+                "trading",
+                "webhook"
+            ],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/swift-trader/main/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/swift-trader/main/README.md",
+            "summary": "A Swift package for connecting and trading on crypto exchanges such as Kucoin and Binance.",
+            "url": "https://github.com/backslash-f/swift-trader.git",
+            "versions":
+            [
+                {
+                    "defaultToolsVersion": "5.5",
+                    "manifests":
+                    {
+                        "5.5":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "macos",
+                                    "version": "12.0"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "15.0"
+                                }
+                            ],
+                            "packageName": "SwiftTrader",
+                            "products":
+                            [
+                                {
+                                    "name": "SwiftTrader",
+                                    "targets":
+                                    [
+                                        "SwiftTrader"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "SwiftTrader",
+                                    "name": "SwiftTrader"
+                                }
+                            ],
+                            "toolsVersion": "5.5"
+                        }
+                    },
+                    "version": "v0.16.2"
+                },
+                {
+                    "defaultToolsVersion": "5.5",
+                    "manifests":
+                    {
+                        "5.5":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "macos",
+                                    "version": "12.0"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "15.0"
+                                }
+                            ],
+                            "packageName": "SwiftTrader",
+                            "products":
+                            [
+                                {
+                                    "name": "SwiftTrader",
+                                    "targets":
+                                    [
+                                        "SwiftTrader"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "SwiftTrader",
+                                    "name": "SwiftTrader"
+                                }
+                            ],
+                            "toolsVersion": "5.5"
+                        }
+                    },
+                    "version": "v0.16.1"
+                },
+                {
+                    "defaultToolsVersion": "5.5",
+                    "manifests":
+                    {
+                        "5.5":
+                        {
+                            "minimumPlatformVersions":
+                            [
+                                {
+                                    "name": "macos",
+                                    "version": "12.0"
+                                },
+                                {
+                                    "name": "ios",
+                                    "version": "15.0"
+                                }
+                            ],
+                            "packageName": "SwiftTrader",
+                            "products":
+                            [
+                                {
+                                    "name": "SwiftTrader",
+                                    "targets":
+                                    [
+                                        "SwiftTrader"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "SwiftTrader",
+                                    "name": "SwiftTrader"
+                                }
+                            ],
+                            "toolsVersion": "5.5"
+                        }
+                    },
+                    "version": "0.16.0"
+                }
+            ]
         }
-      ]
+    ],
+    "revision": 3,
+    "signature":
+    {
+        "certificate":
+        {
+            "issuer":
+            {
+                "commonName": "Apple Worldwide Developer Relations Certification Authority",
+                "organization": "Apple Inc.",
+                "organizationalUnit": "G3"
+            },
+            "subject":
+            {
+                "commonName": "Swift Package Collection: Fernando Fernandes",
+                "organization": "Fernando Fernandes",
+                "organizationalUnit": "UKS358BH88",
+                "userID": "UKS358BH88"
+            }
+        },
+        "signature": "ewogICJhbGciIDogIlJTMjU2IiwKICAieDVjIiA6IFsKICAgICJNSUlGaFRDQ0JHMmdBd0lCQWdJUUhwczNhU2ZVUXBXUUZpU3R0NTMyNGpBTkJna3Foa2lHOXcwQkFRc0ZBREIxTVVRd1FnWURWUVFERER0QmNIQnNaU0JYYjNKc1pIZHBaR1VnUkdWMlpXeHZjR1Z5SUZKbGJHRjBhVzl1Y3lCRFpYSjBhV1pwWTJGMGFXOXVJRUYxZEdodmNtbDBlVEVMTUFrR0ExVUVDd3dDUnpNeEV6QVJCZ05WQkFvTUNrRndjR3hsSUVsdVl5NHhDekFKQmdOVkJBWVRBbFZUTUI0WERUSXpNVEl5TVRFeU16VXdORm9YRFRJME1USXlNREV5TXpVd00xb3dnWkl4R2pBWUJnb0praWFKay9Jc1pBRUJEQXBWUzFNek5UaENTRGc0TVRVd013WURWUVFEREN4VGQybG1kQ0JRWVdOcllXZGxJRU52Ykd4bFkzUnBiMjQ2SUVabGNtNWhibVJ2SUVabGNtNWhibVJsY3pFVE1CRUdBMVVFQ3d3S1ZVdFRNelU0UWtnNE9ERWJNQmtHQTFVRUNnd1NSbVZ5Ym1GdVpHOGdSbVZ5Ym1GdVpHVnpNUXN3Q1FZRFZRUUdFd0pWVXpDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTHc0RFR3Ymhyb1RNMWtyNlNUbXZWUkxpc0lJNk1VeXpJdURnRG91b2RlOWRXYWowQVlZYUlVbTI5WWxGb1djS0hCMFg5U1FIOFRLcG41NW5uZ3Y3UzVjV05qcmFhdG9ZRHV2Z3crV1VlYS81MWl4aHVWckFkQ28yZVdTRlZjbFl0TmRuK0FoZzhsNWJoMmdFSElxQ09yUU1WeGRFOG5oNHk4aHI3TU12OXVQZUptdlNKVkI3eVhtVkZYQkRicXRySi9mUnkwdmJTRERCR2psRjRKLzE1VUdGenJMTXgyQ0FpSG56RS9qQlpDVnRDNVFrYTB0Z2tiZ2J5cHFzSDRjd1QvbjhyYWJ2Vno4THdCSDdYYkk4a2lHMURuL0gxYlBrTXo5Sk5ud2pFWFBQM3MzSlNTOUlRaHhxbWk3cnNXWEVDb0s3RWxXRWZqWEpVWSs3Qlp1dXRzQ0F3RUFBYU9DQWZFd2dnSHRNQXdHQTFVZEV3RUIvd1FDTUFBd0h3WURWUjBqQkJnd0ZvQVVDZjdBRlpENXIyUUtraEs1SmloakRKZnNwN0l3UVFZSUt3WUJCUVVIQVFFRU5UQXpNREVHQ0NzR0FRVUZCekFCaGlWb2RIUndPaTh2YjJOemNDNWhjSEJzWlM1amIyMHZiMk56Y0RBekxYZDNaSEpuTXpFNU1JSUJIZ1lEVlIwZ0JJSUJGVENDQVJFd2dnRU5CZ2txaGtpRzkyTmtCUUV3Z2Y4d2djTUdDQ3NHQVFVRkJ3SUNNSUcyRElHelVtVnNhV0Z1WTJVZ2IyNGdkR2hwY3lCalpYSjBhV1pwWTJGMFpTQmllU0JoYm5rZ2NHRnlkSGtnWVhOemRXMWxjeUJoWTJObGNIUmhibU5sSUc5bUlIUm9aU0IwYUdWdUlHRndjR3hwWTJGaWJHVWdjM1JoYm1SaGNtUWdkR1Z5YlhNZ1lXNWtJR052Ym1ScGRHbHZibk1nYjJZZ2RYTmxMQ0JqWlhKMGFXWnBZMkYwWlNCd2IyeHBZM2tnWVc1a0lHTmxjblJwWm1sallYUnBiMjRnY0hKaFkzUnBZMlVnYzNSaGRHVnRaVzUwY3k0d053WUlLd1lCQlFVSEFnRVdLMmgwZEhCek9pOHZkM2QzTG1Gd2NHeGxMbU52YlM5alpYSjBhV1pwWTJGMFpXRjFkR2h2Y21sMGVTOHdGZ1lEVlIwbEFRSC9CQXd3Q2dZSUt3WUJCUVVIQXdNd0hRWURWUjBPQkJZRUZMTFRnWFhIUTZnajJaa1BOaTJrbW54N2hJcU1NQTRHQTFVZER3RUIvd1FFQXdJSGdEQVFCZ29xaGtpRzkyTmtCZ0VqQkFJRkFEQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFMc2lzcDZpYy9XUXFZZmJLWmpaZ2dQU3JOMUZHRG8yNXhsWUYvcFhYTDdNLzBPd0gyR3BiNXBvTDdwZmh6K2IvaUVBbktPNkxBUDFPNjZGb1BJdS80R3E4V0wxaWVwdUxSRFJ0WWtjMkREY0tpdCt3dWJ1QStjV1hOemNyYnVJQzlMcnpUTEx0UTVSN1N0WVkxT1c5T2l5d0RvMDFUZEwzYlM1VzRKWHVPYWZ5QjdEcmM5NnVhbkJZRTJ3bkRHWGR2TlZZNjJ5bnFCbHhKbEgxbjArSFJqOWpCVGh6bVVBT05ZaUVUV1FrL0xMODJSMkM3OG9xcy80VU9pZXpiSTdJUmV1cFd4MWsvaUZoU2R6ZmdGVEZHTnFQR0Mxa05WNGhNY3E4MzFTNGpmUytZR1g5ajJCbXduYjFSUXArVTNESll6dnhyVmJpYnY1S3F1N1htaCtobEE9PSIKICBdCn0.ewogICJmb3JtYXRWZXJzaW9uIiA6ICIxLjAiLAogICJnZW5lcmF0ZWRBdCIgOiAiMjAyMy0xMi0yMVQxMDowMDo0OVoiLAogICJnZW5lcmF0ZWRCeSIgOiB7CiAgICAibmFtZSIgOiAiYmFja3NsYXNoLWYiCiAgfSwKICAia2V5d29yZHMiIDogWwogICAgImFlcyIsCiAgICAiYWR2YW5jZWQgZW5jcnlwdGlvbiBzdGFuZGFyZCIsCiAgICAiYXV0b21hdGlvbiIsCiAgICAiYmFja3NsYXNoLWYiLAogICAgImJvdCIsCiAgICAiQ29tYmluZSIsCiAgICAiQ29yZUdyYXBoaWNzIiwKICAgICJjcnlwdG8iLAogICAgImRldmljZSIsCiAgICAiZXh0ZW5zaW9ucyIsCiAgICAiZ2FtZSBjb250cm9sbGVyIiwKICAgICJnYW1lIGRldmVsb3BtZW50IiwKICAgICJHYW1lcGxheUtpdCIsCiAgICAiaW1hZ2UgbWFuaXB1bGF0aW9uIiwKICAgICJsb2dnZXIiLAogICAgIk9TTG9nIiwKICAgICJTcHJpdGVLaXQiLAogICAgInN0YXRlIG1hY2hpbmUiLAogICAgIlN3aWZ0IENyeXB0byIsCiAgICAidHJhZGluZyIsCiAgICAidW5pZmllZCBsb2dnaW5nIiwKICAgICJ1dGlsIgogIF0sCiAgIm5hbWUiIDogImJhY2tzbGFzaC1mIFN3aWZ0IFBhY2thZ2VzIiwKICAib3ZlcnZpZXciIDogIkEgY29sbGVjdGlvbiBvZiBTd2lmdCBQYWNrYWdlcyBieSBiYWNrc2xhc2gtZiIsCiAgInBhY2thZ2VzIiA6IFsKICAgIHsKICAgICAgImtleXdvcmRzIiA6IFsKICAgICAgICAiYWVzIiwKICAgICAgICAiY29tbW9uY3J5cHRvIiwKICAgICAgICAic3dpZnQiLAogICAgICAgICJzd2lmdC1wYWNrYWdlLW1hbmFnZXIiCiAgICAgIF0sCiAgICAgICJsaWNlbnNlIiA6IHsKICAgICAgICAibmFtZSIgOiAiTUlUIiwKICAgICAgICAidXJsIiA6ICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYmFja3NsYXNoLWYvYWVzY3J5cHRhYmxlL21hc3Rlci9MSUNFTlNFIgogICAgICB9LAogICAgICAicmVhZG1lVVJMIiA6ICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYmFja3NsYXNoLWYvYWVzY3J5cHRhYmxlL21hc3Rlci9SRUFETUUubWQiLAogICAgICAic3VtbWFyeSIgOiAiQUVTIGVuY3J5cHRpb24vZGVjcnlwdGlvbiB3aXRoIHJhbmRvbSBpdi4gU3dpZnQgNSBhbmQgdXAuIiwKICAgICAgInVybCIgOiAiaHR0cHM6Ly9naXRodWIuY29tL2JhY2tzbGFzaC1mL2Flc2NyeXB0YWJsZS5naXQiLAogICAgICAidmVyc2lvbnMiIDogWwogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjEiLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjEiIDogewogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiQUVTQ3J5cHRhYmxlIiwKICAgICAgICAgICAgICAicHJvZHVjdHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQUVTQ3J5cHRhYmxlIiwKICAgICAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgICAgICJBRVNDcnlwdGFibGUiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiQUVTQ3J5cHRhYmxlIiwKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkFFU0NyeXB0YWJsZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0b29sc1ZlcnNpb24iIDogIjUuMSIKICAgICAgICAgICAgfQogICAgICAgICAgfSwKICAgICAgICAgICJ2ZXJzaW9uIiA6ICJ2Mi4wLjAiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAiZGVmYXVsdFRvb2xzVmVyc2lvbiIgOiAiNS4wIiwKICAgICAgICAgICJtYW5pZmVzdHMiIDogewogICAgICAgICAgICAiNS4wIiA6IHsKICAgICAgICAgICAgICAicGFja2FnZU5hbWUiIDogIkFFU0NyeXB0YWJsZSIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkFFU0NyeXB0YWJsZSIsCiAgICAgICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgICAgICAiQUVTQ3J5cHRhYmxlIgogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAidHlwZSIgOiB7CiAgICAgICAgICAgICAgICAgICAgImxpYnJhcnkiIDogWwogICAgICAgICAgICAgICAgICAgICAgImF1dG9tYXRpYyIKICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm1vZHVsZU5hbWUiIDogIkFFU0NyeXB0YWJsZSIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJBRVNDcnlwdGFibGUiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidG9vbHNWZXJzaW9uIiA6ICI1LjAiCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgICAidmVyc2lvbiIgOiAidjEuMC4zIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuMCIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuMCIgOiB7CiAgICAgICAgICAgICAgInBhY2thZ2VOYW1lIiA6ICJBRVNDcnlwdGFibGUiLAogICAgICAgICAgICAgICJwcm9kdWN0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJBRVNDcnlwdGFibGUiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkFFU0NyeXB0YWJsZSIKICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgInR5cGUiIDogewogICAgICAgICAgICAgICAgICAgICJsaWJyYXJ5IiA6IFsKICAgICAgICAgICAgICAgICAgICAgICJhdXRvbWF0aWMiCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtb2R1bGVOYW1lIiA6ICJBRVNDcnlwdGFibGUiLAogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQUVTQ3J5cHRhYmxlIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS4wIgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYxLjAuMiIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjAiLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjAiIDogewogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiQUVTQ3J5cHRhYmxlIiwKICAgICAgICAgICAgICAicHJvZHVjdHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQUVTQ3J5cHRhYmxlIiwKICAgICAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgICAgICJBRVNDcnlwdGFibGUiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiQUVTQ3J5cHRhYmxlIiwKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkFFU0NyeXB0YWJsZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0b29sc1ZlcnNpb24iIDogIjUuMCIKICAgICAgICAgICAgfQogICAgICAgICAgfSwKICAgICAgICAgICJ2ZXJzaW9uIiA6ICJ2MS4wLjEiCiAgICAgICAgfQogICAgICBdCiAgICB9LAogICAgewogICAgICAia2V5d29yZHMiIDogWwogICAgICAgICJnYW1lLWRldmVsb3BtZW50IiwKICAgICAgICAiZ2FtZS1lbmdpbmUiLAogICAgICAgICJnYW1lcyIKICAgICAgXSwKICAgICAgImxpY2Vuc2UiIDogewogICAgICAgICJuYW1lIiA6ICJNSVQiLAogICAgICAgICJ1cmwiIDogImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9iYWNrc2xhc2gtZi9hbG1hL21haW4vTElDRU5TRSIKICAgICAgfSwKICAgICAgInJlYWRtZVVSTCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2FsbWEvbWFpbi9SRUFETUUubWQiLAogICAgICAic3VtbWFyeSIgOiAiVGhlIEFMTUEgR2FtZSBFbmdpbmUg8J-RviIsCiAgICAgICJ1cmwiIDogImh0dHBzOi8vZ2l0aHViLmNvbS9iYWNrc2xhc2gtZi9hbG1hLmdpdCIsCiAgICAgICJ2ZXJzaW9ucyIgOiBbCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuNSIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuNSIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjExLjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAidHZvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIndhdGNob3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiNy4wIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInBhY2thZ2VOYW1lIiA6ICJBTE1BIiwKICAgICAgICAgICAgICAicHJvZHVjdHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQUxNQSIsCiAgICAgICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgICAgICAiQUxNQSIKICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgInR5cGUiIDogewogICAgICAgICAgICAgICAgICAgICJsaWJyYXJ5IiA6IFsKICAgICAgICAgICAgICAgICAgICAgICJhdXRvbWF0aWMiCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtb2R1bGVOYW1lIiA6ICJBTE1BIiwKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkFMTUEiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidG9vbHNWZXJzaW9uIiA6ICI1LjUiCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgICAidmVyc2lvbiIgOiAidjAuMC41IgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuNSIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuNSIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjExLjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAidHZvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIndhdGNob3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiNy4wIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInBhY2thZ2VOYW1lIiA6ICJBTE1BIiwKICAgICAgICAgICAgICAicHJvZHVjdHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQUxNQSIsCiAgICAgICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgICAgICAiQUxNQSIKICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgInR5cGUiIDogewogICAgICAgICAgICAgICAgICAgICJsaWJyYXJ5IiA6IFsKICAgICAgICAgICAgICAgICAgICAgICJhdXRvbWF0aWMiCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtb2R1bGVOYW1lIiA6ICJBTE1BIiwKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkFMTUEiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidG9vbHNWZXJzaW9uIiA6ICI1LjUiCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgICAidmVyc2lvbiIgOiAidjAuMC40IgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuNCIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuNCIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjExLjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAidHZvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIndhdGNob3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiNy4wIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInBhY2thZ2VOYW1lIiA6ICJBTE1BIiwKICAgICAgICAgICAgICAicHJvZHVjdHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQUxNQSIsCiAgICAgICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgICAgICAiQUxNQSIKICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgInR5cGUiIDogewogICAgICAgICAgICAgICAgICAgICJsaWJyYXJ5IiA6IFsKICAgICAgICAgICAgICAgICAgICAgICJhdXRvbWF0aWMiCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtb2R1bGVOYW1lIiA6ICJBTE1BIiwKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkFMTUEiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidG9vbHNWZXJzaW9uIiA6ICI1LjQiCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgICAidmVyc2lvbiIgOiAidjAuMC4zIgogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgImtleXdvcmRzIiA6IFsKICAgICAgICAibG9nZ2VyIiwKICAgICAgICAibG9nZ2luZyIsCiAgICAgICAgIm9zbG9nIiwKICAgICAgICAidW5pZmllZC1sb2dnaW5nIgogICAgICBdLAogICAgICAibGljZW5zZSIgOiB7CiAgICAgICAgIm5hbWUiIDogIk1JVCIsCiAgICAgICAgInVybCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2FwcGxvZ2dlci9tYXN0ZXIvTElDRU5TRSIKICAgICAgfSwKICAgICAgInJlYWRtZVVSTCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2FwcGxvZ2dlci9tYXN0ZXIvUkVBRE1FLm1kIiwKICAgICAgInN1bW1hcnkiIDogIldyYXBwZXIgYXJvdW5kIEFwcGxlJ3MgbmV3ZXN0IFN3aWZ0IGxvZ2dpbmcgQVBJcyAoT1NMb2cgLyBVbmlmaWVkIExvZ2dpbmcgLyBMb2dnZXIpLiIsCiAgICAgICJ1cmwiIDogImh0dHBzOi8vZ2l0aHViLmNvbS9iYWNrc2xhc2gtZi9hcHBsb2dnZXIuZ2l0IiwKICAgICAgInZlcnNpb25zIiA6IFsKICAgICAgICB7CiAgICAgICAgICAiZGVmYXVsdFRvb2xzVmVyc2lvbiIgOiAiNS4zIiwKICAgICAgICAgICJtYW5pZmVzdHMiIDogewogICAgICAgICAgICAiNS4zIiA6IHsKICAgICAgICAgICAgICAibWluaW11bVBsYXRmb3JtVmVyc2lvbnMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiaW9zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjE0LjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAibWFjb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTEuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJ0dm9zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjE0LjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAid2F0Y2hvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICI3LjAiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAicGFja2FnZU5hbWUiIDogIkFwcExvZ2dlciIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkFwcExvZ2dlciIsCiAgICAgICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgICAgICAiQXBwTG9nZ2VyIgogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAidHlwZSIgOiB7CiAgICAgICAgICAgICAgICAgICAgImxpYnJhcnkiIDogWwogICAgICAgICAgICAgICAgICAgICAgImF1dG9tYXRpYyIKICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm1vZHVsZU5hbWUiIDogIkFwcExvZ2dlciIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJBcHBMb2dnZXIiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidG9vbHNWZXJzaW9uIiA6ICI1LjMiCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgICAidmVyc2lvbiIgOiAidjEuMS4wIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuMyIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuMyIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjExLjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAidHZvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIndhdGNob3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiNy4wIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInBhY2thZ2VOYW1lIiA6ICJBcHBMb2dnZXIiLAogICAgICAgICAgICAgICJwcm9kdWN0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJBcHBMb2dnZXIiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkFwcExvZ2dlciIKICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgInR5cGUiIDogewogICAgICAgICAgICAgICAgICAgICJsaWJyYXJ5IiA6IFsKICAgICAgICAgICAgICAgICAgICAgICJhdXRvbWF0aWMiCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtb2R1bGVOYW1lIiA6ICJBcHBMb2dnZXIiLAogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQXBwTG9nZ2VyIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS4zIgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYxLjAuMCIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJrZXl3b3JkcyIgOiBbCiAgICAgICAgImNvbWJpbmUiLAogICAgICAgICJnYW1lcGxheWtpdCIsCiAgICAgICAgInN0YXRlLW1hY2hpbmUiLAogICAgICAgICJzd2lmdCIKICAgICAgXSwKICAgICAgInJlYWRtZVVSTCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2Nna3N0YXRlbWFjaGluZS9tYWluL1JFQURNRS5tZCIsCiAgICAgICJzdW1tYXJ5IiA6ICJBIGN1c3RvbSBHS1N0YXRlTWFjaGluZSBzdWJjbGFzcyB0aGF0IGFsbG93cyBHS1N0YXRlIGNoYW5nZXMgdG8gYmUgb2JzZXJ2ZWQgdXNpbmcgQ29tYmluZS4iLAogICAgICAidXJsIiA6ICJodHRwczovL2dpdGh1Yi5jb20vYmFja3NsYXNoLWYvY2drc3RhdGVtYWNoaW5lLmdpdCIsCiAgICAgICJ2ZXJzaW9ucyIgOiBbCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuNSIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuNSIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjExLjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAidHZvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIndhdGNob3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiNy4wIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInBhY2thZ2VOYW1lIiA6ICJDR0tTdGF0ZU1hY2hpbmUiLAogICAgICAgICAgICAgICJwcm9kdWN0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJDR0tTdGF0ZU1hY2hpbmUiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkNHS1N0YXRlTWFjaGluZSIKICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgInR5cGUiIDogewogICAgICAgICAgICAgICAgICAgICJsaWJyYXJ5IiA6IFsKICAgICAgICAgICAgICAgICAgICAgICJhdXRvbWF0aWMiCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtb2R1bGVOYW1lIiA6ICJDR0tTdGF0ZU1hY2hpbmUiLAogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQ0dLU3RhdGVNYWNoaW5lIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS41IgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYwLjEuMCIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJrZXl3b3JkcyIgOiBbCiAgICAgICAgImRlYnVnZ2luZyIsCiAgICAgICAgImdhbWUtY29udHJvbGxlcnMiLAogICAgICAgICJzcHJpdGVraXQiCiAgICAgIF0sCiAgICAgICJsaWNlbnNlIiA6IHsKICAgICAgICAibmFtZSIgOiAiTUlUIiwKICAgICAgICAidXJsIiA6ICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYmFja3NsYXNoLWYvY3Nrc2NlbmUvbWFpbi9MSUNFTlNFIgogICAgICB9LAogICAgICAicmVhZG1lVVJMIiA6ICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYmFja3NsYXNoLWYvY3Nrc2NlbmUvbWFpbi9SRUFETUUubWQiLAogICAgICAic3VtbWFyeSIgOiAiQSBjdXN0b20gU0tTY2VuZSBzdWJjbGFzcyB3aXRoIGRlYnVnIG9wdGlvbnMgZW5hYmxlZCBieSBkZWZhdWx0IGFuZCB0aGUgYWJpbGl0eSB0byBvYnNlcnZlIGdhbWUgY29udHJvbGxlcnMuIiwKICAgICAgInVybCIgOiAiaHR0cHM6Ly9naXRodWIuY29tL2JhY2tzbGFzaC1mL2Nza3NjZW5lLmdpdCIsCiAgICAgICJ2ZXJzaW9ucyIgOiBbCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuNSIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuNSIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjExLjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAidHZvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIndhdGNob3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiNy4wIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInBhY2thZ2VOYW1lIiA6ICJDU0tTY2VuZSIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkNTS1NjZW5lIiwKICAgICAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgICAgICJDU0tTY2VuZSIKICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgInR5cGUiIDogewogICAgICAgICAgICAgICAgICAgICJsaWJyYXJ5IiA6IFsKICAgICAgICAgICAgICAgICAgICAgICJhdXRvbWF0aWMiCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtb2R1bGVOYW1lIiA6ICJDU0tTY2VuZSIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJDU0tTY2VuZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0b29sc1ZlcnNpb24iIDogIjUuNSIKICAgICAgICAgICAgfQogICAgICAgICAgfSwKICAgICAgICAgICJ2ZXJzaW9uIiA6ICJ2MC4yLjYiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAiZGVmYXVsdFRvb2xzVmVyc2lvbiIgOiAiNS40IiwKICAgICAgICAgICJtYW5pZmVzdHMiIDogewogICAgICAgICAgICAiNS40IiA6IHsKICAgICAgICAgICAgICAibWluaW11bVBsYXRmb3JtVmVyc2lvbnMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiaW9zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjE0LjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAibWFjb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTEuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJ0dm9zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjE0LjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAid2F0Y2hvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICI3LjAiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAicGFja2FnZU5hbWUiIDogIkNTS1NjZW5lIiwKICAgICAgICAgICAgICAicHJvZHVjdHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQ1NLU2NlbmUiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkNTS1NjZW5lIgogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAidHlwZSIgOiB7CiAgICAgICAgICAgICAgICAgICAgImxpYnJhcnkiIDogWwogICAgICAgICAgICAgICAgICAgICAgImF1dG9tYXRpYyIKICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm1vZHVsZU5hbWUiIDogIkNTS1NjZW5lIiwKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkNTS1NjZW5lIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS40IgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYwLjIuNSIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjQiLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjQiIDogewogICAgICAgICAgICAgICJtaW5pbXVtUGxhdGZvcm1WZXJzaW9ucyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJpb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJtYWNvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxMS4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogInR2b3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJ3YXRjaG9zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjcuMCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiQ1NLU2NlbmUiLAogICAgICAgICAgICAgICJwcm9kdWN0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJDU0tTY2VuZSIsCiAgICAgICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgICAgICAiQ1NLU2NlbmUiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiQ1NLU2NlbmUiLAogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiQ1NLU2NlbmUiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidG9vbHNWZXJzaW9uIiA6ICI1LjQiCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgICAidmVyc2lvbiIgOiAidjAuMi40IgogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgImtleXdvcmRzIiA6IFsKICAgICAgICAiZGV2aWNlLW9yaWVudGF0aW9uIiwKICAgICAgICAiZGV2aWNlLXR5cGUiLAogICAgICAgICJvcGVyYXRpbmctc3lzdGVtIiwKICAgICAgICAic3dpZnQiLAogICAgICAgICJzd2lmdC1wYWNrYWdlIgogICAgICBdLAogICAgICAibGljZW5zZSIgOiB7CiAgICAgICAgIm5hbWUiIDogIk1JVCIsCiAgICAgICAgInVybCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2RldmljZS9tYXN0ZXIvTElDRU5TRSIKICAgICAgfSwKICAgICAgInJlYWRtZVVSTCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2RldmljZS9tYXN0ZXIvUkVBRE1FLm1kIiwKICAgICAgInN1bW1hcnkiIDogIiBSZXRyaWV2ZXMgaW5mb3JtYXRpb24gYWJvdXQgYSBob3N0IGRldmljZS4gIiwKICAgICAgInVybCIgOiAiaHR0cHM6Ly9naXRodWIuY29tL2JhY2tzbGFzaC1mL2RldmljZS5naXQiLAogICAgICAidmVyc2lvbnMiIDogWwogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjQiLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjQiIDogewogICAgICAgICAgICAgICJtaW5pbXVtUGxhdGZvcm1WZXJzaW9ucyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJpb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJtYWNvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxMS4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogInR2b3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJ3YXRjaG9zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjcuMCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiRGV2aWNlIiwKICAgICAgICAgICAgICAicHJvZHVjdHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiRGV2aWNlIiwKICAgICAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgICAgICJEZXZpY2UiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiRGV2aWNlIiwKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkRldmljZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0b29sc1ZlcnNpb24iIDogIjUuNCIKICAgICAgICAgICAgfQogICAgICAgICAgfSwKICAgICAgICAgICJ2ZXJzaW9uIiA6ICJ2MS4xLjEiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAiZGVmYXVsdFRvb2xzVmVyc2lvbiIgOiAiNS4zIiwKICAgICAgICAgICJtYW5pZmVzdHMiIDogewogICAgICAgICAgICAiNS4zIiA6IHsKICAgICAgICAgICAgICAibWluaW11bVBsYXRmb3JtVmVyc2lvbnMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiaW9zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjE0LjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAibWFjb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTEuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJ0dm9zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjE0LjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAid2F0Y2hvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICI3LjAiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAicGFja2FnZU5hbWUiIDogIkRldmljZSIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkRldmljZSIsCiAgICAgICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgICAgICAiRGV2aWNlIgogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAidHlwZSIgOiB7CiAgICAgICAgICAgICAgICAgICAgImxpYnJhcnkiIDogWwogICAgICAgICAgICAgICAgICAgICAgImF1dG9tYXRpYyIKICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm1vZHVsZU5hbWUiIDogIkRldmljZSIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJEZXZpY2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidG9vbHNWZXJzaW9uIiA6ICI1LjMiCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgICAidmVyc2lvbiIgOiAidjEuMS4wIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuMyIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuMyIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjExLjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAidHZvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNC4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIndhdGNob3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiNy4wIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInBhY2thZ2VOYW1lIiA6ICJEZXZpY2UiLAogICAgICAgICAgICAgICJwcm9kdWN0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJEZXZpY2UiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkRldmljZSIKICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgInR5cGUiIDogewogICAgICAgICAgICAgICAgICAgICJsaWJyYXJ5IiA6IFsKICAgICAgICAgICAgICAgICAgICAgICJhdXRvbWF0aWMiCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtb2R1bGVOYW1lIiA6ICJEZXZpY2UiLAogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiRGV2aWNlIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS4zIgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYxLjAuMCIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJrZXl3b3JkcyIgOiBbCgogICAgICBdLAogICAgICAibGljZW5zZSIgOiB7CiAgICAgICAgIm5hbWUiIDogIk1JVCIsCiAgICAgICAgInVybCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2V4dGVuc2lvbnMvbWFpbi9MSUNFTlNFP3Rva2VuPUFBRkNLNTJaQkVKWklYWFJGTkpHS1NURlFRR1A2IgogICAgICB9LAogICAgICAicmVhZG1lVVJMIiA6ICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYmFja3NsYXNoLWYvZXh0ZW5zaW9ucy9tYWluL1JFQURNRS5tZD90b2tlbj1BQUZDSzVZM1JLVFBEU1lTWEE2M0ZHTEZRUUdQNiIsCiAgICAgICJzdW1tYXJ5IiA6ICJBIGNvbGxlY3Rpb24gb2YgdXNlZnVsIFN3aWZ0IC8gU3dpZnRVSSBleHRlbnNpb25zLiIsCiAgICAgICJ1cmwiIDogImh0dHBzOi8vZ2l0aHViLmNvbS9iYWNrc2xhc2gtZi9leHRlbnNpb25zLmdpdCIsCiAgICAgICJ2ZXJzaW9ucyIgOiBbCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuNyIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuNyIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNS4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjEzLjAiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAicGFja2FnZU5hbWUiIDogIkV4dGVuc2lvbnMiLAogICAgICAgICAgICAgICJwcm9kdWN0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJFeHRlbnNpb25zIiwKICAgICAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgICAgICJFeHRlbnNpb25zIgogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAidHlwZSIgOiB7CiAgICAgICAgICAgICAgICAgICAgImxpYnJhcnkiIDogWwogICAgICAgICAgICAgICAgICAgICAgImF1dG9tYXRpYyIKICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm1vZHVsZU5hbWUiIDogIkV4dGVuc2lvbnMiLAogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiRXh0ZW5zaW9ucyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0b29sc1ZlcnNpb24iIDogIjUuNyIKICAgICAgICAgICAgfQogICAgICAgICAgfSwKICAgICAgICAgICJ2ZXJzaW9uIiA6ICJ2MC4xMS4xIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuNyIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuNyIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNS4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjEzLjAiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAicGFja2FnZU5hbWUiIDogIkV4dGVuc2lvbnMiLAogICAgICAgICAgICAgICJwcm9kdWN0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJFeHRlbnNpb25zIiwKICAgICAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgICAgICJFeHRlbnNpb25zIgogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAidHlwZSIgOiB7CiAgICAgICAgICAgICAgICAgICAgImxpYnJhcnkiIDogWwogICAgICAgICAgICAgICAgICAgICAgImF1dG9tYXRpYyIKICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm1vZHVsZU5hbWUiIDogIkV4dGVuc2lvbnMiLAogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiRXh0ZW5zaW9ucyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0b29sc1ZlcnNpb24iIDogIjUuNyIKICAgICAgICAgICAgfQogICAgICAgICAgfSwKICAgICAgICAgICJ2ZXJzaW9uIiA6ICJ2MC4xMS4wIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuNyIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuNyIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNS4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjEzLjAiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAicGFja2FnZU5hbWUiIDogIkV4dGVuc2lvbnMiLAogICAgICAgICAgICAgICJwcm9kdWN0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJFeHRlbnNpb25zIiwKICAgICAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgICAgICJFeHRlbnNpb25zIgogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAidHlwZSIgOiB7CiAgICAgICAgICAgICAgICAgICAgImxpYnJhcnkiIDogWwogICAgICAgICAgICAgICAgICAgICAgImF1dG9tYXRpYyIKICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm1vZHVsZU5hbWUiIDogIkV4dGVuc2lvbnMiLAogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiRXh0ZW5zaW9ucyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0b29sc1ZlcnNpb24iIDogIjUuNyIKICAgICAgICAgICAgfQogICAgICAgICAgfSwKICAgICAgICAgICJ2ZXJzaW9uIiA6ICJ2MC4xMC4wIgogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgImtleXdvcmRzIiA6IFsKICAgICAgICAiY29tYmluZSIsCiAgICAgICAgImdhbWUtY29udHJvbGxlciIsCiAgICAgICAgImdhbWUtZGV2ZWxvcG1lbnQiLAogICAgICAgICJzd2lmdCIKICAgICAgXSwKICAgICAgImxpY2Vuc2UiIDogewogICAgICAgICJuYW1lIiA6ICJNSVQiLAogICAgICAgICJ1cmwiIDogImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9iYWNrc2xhc2gtZi9nY292ZXJzZWVyL21haW4vTElDRU5TRSIKICAgICAgfSwKICAgICAgInJlYWRtZVVSTCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2djb3ZlcnNlZXIvbWFpbi9SRUFETUUubWQiLAogICAgICAic3VtbWFyeSIgOiAiT2JzZXJ2ZSBhbmQgbWFuYWdlIGdhbWUgY29udHJvbGxlcnMgdXNpbmcgQ29tYmluZS4iLAogICAgICAidXJsIiA6ICJodHRwczovL2dpdGh1Yi5jb20vYmFja3NsYXNoLWYvZ2NvdmVyc2Vlci5naXQiLAogICAgICAidmVyc2lvbnMiIDogWwogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjMiLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjMiIDogewogICAgICAgICAgICAgICJtaW5pbXVtUGxhdGZvcm1WZXJzaW9ucyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJpb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJtYWNvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxMS4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogInR2b3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiR0NPdmVyc2VlciIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkdDT3ZlcnNlZXIiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkdDT3ZlcnNlZXIiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiR0NPdmVyc2VlciIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJHQ092ZXJzZWVyIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS4zIgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYwLjIuMiIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjMiLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjMiIDogewogICAgICAgICAgICAgICJtaW5pbXVtUGxhdGZvcm1WZXJzaW9ucyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJpb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJtYWNvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxMS4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogInR2b3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiR0NPdmVyc2VlciIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkdDT3ZlcnNlZXIiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkdDT3ZlcnNlZXIiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiR0NPdmVyc2VlciIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJHQ092ZXJzZWVyIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS4zIgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYwLjIuMSIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjMiLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjMiIDogewogICAgICAgICAgICAgICJtaW5pbXVtUGxhdGZvcm1WZXJzaW9ucyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJpb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJtYWNvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxMS4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogInR2b3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiR0NPdmVyc2VlciIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkdDT3ZlcnNlZXIiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkdDT3ZlcnNlZXIiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiR0NPdmVyc2VlciIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJHQ092ZXJzZWVyIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS4zIgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYwLjIuMCIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJrZXl3b3JkcyIgOiBbCgogICAgICBdLAogICAgICAibGljZW5zZSIgOiB7CiAgICAgICAgIm5hbWUiIDogIk1JVCIsCiAgICAgICAgInVybCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2ltYWdlLXRvb2xzL21haW4vTElDRU5TRT90b2tlbj1BQUZDSzVaNkkzQ0pGSUNCNDdLTVpCVEZRUUdRTyIKICAgICAgfSwKICAgICAgInJlYWRtZVVSTCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL2ltYWdlLXRvb2xzL21haW4vUkVBRE1FLm1kP3Rva2VuPUFBRkNLNTJRQzZCWldCNk9LRklOV0lMRlFRR1FPIiwKICAgICAgInN1bW1hcnkiIDogIk11bHRpcGxhdGZvcm0gQ29yZSBHcmFwaGljcyB3cmFwcGVyLiIsCiAgICAgICJ1cmwiIDogImh0dHBzOi8vZ2l0aHViLmNvbS9iYWNrc2xhc2gtZi9pbWFnZS10b29scy5naXQiLAogICAgICAidmVyc2lvbnMiIDogWwogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjciLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjciIDogewogICAgICAgICAgICAgICJtaW5pbXVtUGxhdGZvcm1WZXJzaW9ucyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJpb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTYuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJtYWNvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxMy4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogInR2b3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiSW1hZ2VUb29scyIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkltYWdlVG9vbHMiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkltYWdlVG9vbHMiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiSW1hZ2VUb29scyIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJJbWFnZVRvb2xzIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS43IgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYwLjMuMSIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjciLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjciIDogewogICAgICAgICAgICAgICJtaW5pbXVtUGxhdGZvcm1WZXJzaW9ucyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJpb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTYuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJtYWNvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxMy4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogInR2b3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiSW1hZ2VUb29scyIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkltYWdlVG9vbHMiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkltYWdlVG9vbHMiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiSW1hZ2VUb29scyIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJJbWFnZVRvb2xzIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS43IgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYwLjMuMCIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjciLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjciIDogewogICAgICAgICAgICAgICJtaW5pbXVtUGxhdGZvcm1WZXJzaW9ucyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJpb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTYuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJtYWNvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxMy4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogInR2b3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTQuMCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiSW1hZ2VUb29scyIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIkltYWdlVG9vbHMiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIkltYWdlVG9vbHMiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiSW1hZ2VUb29scyIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJJbWFnZVRvb2xzIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS43IgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYwLjIuMSIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJrZXl3b3JkcyIgOiBbCiAgICAgICAgImFwaSIsCiAgICAgICAgImJpbmFuY2UiLAogICAgICAgICJib3QiLAogICAgICAgICJjcnlwdG8iLAogICAgICAgICJrdWNvaW4iLAogICAgICAgICJzd2lmdCIsCiAgICAgICAgInRyYWRpbmciLAogICAgICAgICJ3ZWJob29rIgogICAgICBdLAogICAgICAibGljZW5zZSIgOiB7CiAgICAgICAgIm5hbWUiIDogIk1JVCIsCiAgICAgICAgInVybCIgOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhY2tzbGFzaC1mL3N3aWZ0LXRyYWRlci9tYWluL0xJQ0VOU0UiCiAgICAgIH0sCiAgICAgICJyZWFkbWVVUkwiIDogImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9iYWNrc2xhc2gtZi9zd2lmdC10cmFkZXIvbWFpbi9SRUFETUUubWQiLAogICAgICAic3VtbWFyeSIgOiAiQSBTd2lmdCBwYWNrYWdlIGZvciBjb25uZWN0aW5nIGFuZCB0cmFkaW5nIG9uIGNyeXB0byBleGNoYW5nZXMgc3VjaCBhcyBLdWNvaW4gYW5kIEJpbmFuY2UuIiwKICAgICAgInVybCIgOiAiaHR0cHM6Ly9naXRodWIuY29tL2JhY2tzbGFzaC1mL3N3aWZ0LXRyYWRlci5naXQiLAogICAgICAidmVyc2lvbnMiIDogWwogICAgICAgIHsKICAgICAgICAgICJkZWZhdWx0VG9vbHNWZXJzaW9uIiA6ICI1LjUiLAogICAgICAgICAgIm1hbmlmZXN0cyIgOiB7CiAgICAgICAgICAgICI1LjUiIDogewogICAgICAgICAgICAgICJtaW5pbXVtUGxhdGZvcm1WZXJzaW9ucyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJtYWNvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxMi4wIgogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogImlvcyIsCiAgICAgICAgICAgICAgICAgICJ2ZXJzaW9uIiA6ICIxNS4wIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInBhY2thZ2VOYW1lIiA6ICJTd2lmdFRyYWRlciIsCiAgICAgICAgICAgICAgInByb2R1Y3RzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIlN3aWZ0VHJhZGVyIiwKICAgICAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgICAgICJTd2lmdFRyYWRlciIKICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgInR5cGUiIDogewogICAgICAgICAgICAgICAgICAgICJsaWJyYXJ5IiA6IFsKICAgICAgICAgICAgICAgICAgICAgICJhdXRvbWF0aWMiCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtb2R1bGVOYW1lIiA6ICJTd2lmdFRyYWRlciIsCiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJTd2lmdFRyYWRlciIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0b29sc1ZlcnNpb24iIDogIjUuNSIKICAgICAgICAgICAgfQogICAgICAgICAgfSwKICAgICAgICAgICJ2ZXJzaW9uIiA6ICJ2MC4xNi4yIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgImRlZmF1bHRUb29sc1ZlcnNpb24iIDogIjUuNSIsCiAgICAgICAgICAibWFuaWZlc3RzIiA6IHsKICAgICAgICAgICAgIjUuNSIgOiB7CiAgICAgICAgICAgICAgIm1pbmltdW1QbGF0Zm9ybVZlcnNpb25zIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIm1hY29zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjEyLjAiCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiaW9zIiwKICAgICAgICAgICAgICAgICAgInZlcnNpb24iIDogIjE1LjAiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAicGFja2FnZU5hbWUiIDogIlN3aWZ0VHJhZGVyIiwKICAgICAgICAgICAgICAicHJvZHVjdHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiU3dpZnRUcmFkZXIiLAogICAgICAgICAgICAgICAgICAidGFyZ2V0cyIgOiBbCiAgICAgICAgICAgICAgICAgICAgIlN3aWZ0VHJhZGVyIgogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAidHlwZSIgOiB7CiAgICAgICAgICAgICAgICAgICAgImxpYnJhcnkiIDogWwogICAgICAgICAgICAgICAgICAgICAgImF1dG9tYXRpYyIKICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm1vZHVsZU5hbWUiIDogIlN3aWZ0VHJhZGVyIiwKICAgICAgICAgICAgICAgICAgIm5hbWUiIDogIlN3aWZ0VHJhZGVyIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRvb2xzVmVyc2lvbiIgOiAiNS41IgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgInZlcnNpb24iIDogInYwLjE2LjEiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAiZGVmYXVsdFRvb2xzVmVyc2lvbiIgOiAiNS41IiwKICAgICAgICAgICJtYW5pZmVzdHMiIDogewogICAgICAgICAgICAiNS41IiA6IHsKICAgICAgICAgICAgICAibWluaW11bVBsYXRmb3JtVmVyc2lvbnMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibmFtZSIgOiAibWFjb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTIuMCIKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJpb3MiLAogICAgICAgICAgICAgICAgICAidmVyc2lvbiIgOiAiMTUuMCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICJwYWNrYWdlTmFtZSIgOiAiU3dpZnRUcmFkZXIiLAogICAgICAgICAgICAgICJwcm9kdWN0cyIgOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJuYW1lIiA6ICJTd2lmdFRyYWRlciIsCiAgICAgICAgICAgICAgICAgICJ0YXJnZXRzIiA6IFsKICAgICAgICAgICAgICAgICAgICAiU3dpZnRUcmFkZXIiCiAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICJ0eXBlIiA6IHsKICAgICAgICAgICAgICAgICAgICAibGlicmFyeSIgOiBbCiAgICAgICAgICAgICAgICAgICAgICAiYXV0b21hdGljIgogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgInRhcmdldHMiIDogWwogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kdWxlTmFtZSIgOiAiU3dpZnRUcmFkZXIiLAogICAgICAgICAgICAgICAgICAibmFtZSIgOiAiU3dpZnRUcmFkZXIiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAidG9vbHNWZXJzaW9uIiA6ICI1LjUiCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgICAidmVyc2lvbiIgOiAiMC4xNi4wIgogICAgICAgIH0KICAgICAgXQogICAgfQogIF0sCiAgInJldmlzaW9uIiA6IDMKfQ.KjmgtlccgHa4R81T6vhj7q7i8odR8lwZI16iE8GHK-ed6K_yAH9A2RaBBycRYNYvlA-XchPRXammxQ9AppwLEOpMfDIoC0Dvw-MeglxORi7m7iakfMJ-yYII9qjONLRf4jWgSAZHZZcK-jkBfTVELZfDCQfe7XGki38I4KlTnW7zy_f1ZqdrPEs9Wtee_c0KoLOP3Ah1f3wzqpIYxiZvD5Ni06oP_rKvhprYtSwuzcFxpVi_dc_AdDvTDpGx46wKzBOoro3jO_T7sGd7oL-AfEA_BpgRb8OyfjfPnLDLu7wiL7wUlXiIlsAusPRTAgpIIf3x0KDrRDA6ajiGBtIIuA"
     }
-  ],
-  "revision" : 3
 }
