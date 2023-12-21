@@ -1,14 +1,16 @@
 {
     "name": "backslash-f Swift Packages",
-    "overview": "A collection of Swift Packages created by backslash-f",
+    "overview": "A collection of Swift Packages by backslash-f",
     "keywords":
     [
         "aes",
         "advanced encryption standard",
+        "automation",
         "backslash-f",
+        "bot",
         "Combine",
-        "CommonCrypto",
         "CoreGraphics",
+        "crypto",
         "device",
         "extensions",
         "game controller",
@@ -19,6 +21,8 @@
         "OSLog",
         "SpriteKit",
         "state machine",
+        "Swift Crypto",
+        "trading",
         "unified logging",
         "util"
     ],
@@ -50,6 +54,9 @@
         },
         {
             "url": "https://github.com/backslash-f/image-tools.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/swift-trader.git"
         }
     ],
     "author":
