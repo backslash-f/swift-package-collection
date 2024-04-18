@@ -16,12 +16,14 @@
         "game controller",
         "game development",
         "GameplayKit",
+        "helper",
         "image manipulation",
         "logger",
         "OSLog",
         "SpriteKit",
         "state machine",
         "Swift Crypto",
+        "toolbox",
         "trading",
         "unified logging",
         "util"
@@ -54,6 +56,9 @@
         },
         {
             "url": "https://github.com/backslash-f/image-tools.git"
+        },
+        {
+            "url": "https://github.com/backslash-f/toolbox"
         },
         {
             "url": "https://github.com/backslash-f/swift-trader.git"
