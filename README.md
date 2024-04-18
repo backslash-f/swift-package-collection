@@ -12,7 +12,10 @@ A collection of my Swift Packages, based on the WWDC21 session [Discover and cur
 
 ## Terminal
 
-`swift package-collection add https://raw.githubusercontent.com/backslash-f/swift-package-collection/main/collection.json`
+`swift package-collection add https://raw.githubusercontent.com/backslash-f/swift-package-collection/main/collection.json --skip-signature-check`
+
+### --skip-signature-check
+Signing is currently broken for me. :-(
 
 ## Xcode
 
