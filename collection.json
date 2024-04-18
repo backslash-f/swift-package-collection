@@ -1,6 +1,6 @@
 {
     "formatVersion": "1.0",
-    "generatedAt": "2024-04-18T18:16:35Z",
+    "generatedAt": "2024-04-18T18:39:11Z",
     "generatedBy":
     {
         "name": "backslash-f"
@@ -652,7 +652,7 @@
                 "url": "https://raw.githubusercontent.com/backslash-f/cskscene/main/LICENSE"
             },
             "readmeURL": "https://raw.githubusercontent.com/backslash-f/cskscene/main/README.md",
-            "summary": "A custom SKScene subclass with debug options enabled by default and the ability to observe game controllers 🌃",
+            "summary": "Custom SKScene with debugging features and game controller observing capabilities 🌃",
             "url": "https://github.com/backslash-f/cskscene.git",
             "versions":
             [
@@ -1604,6 +1604,63 @@
                         }
                     },
                     "version": "v1.2.0"
+                }
+            ]
+        },
+        {
+            "keywords":
+            [
+                "helpers",
+                "swift",
+                "swiftui",
+                "tools",
+                "utilities"
+            ],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://raw.githubusercontent.com/backslash-f/toolbox/main/LICENSE"
+            },
+            "readmeURL": "https://raw.githubusercontent.com/backslash-f/toolbox/main/README.md",
+            "summary": "A collection of useful Swift tools. 🧰",
+            "url": "https://github.com/backslash-f/toolbox.git",
+            "versions":
+            [
+                {
+                    "defaultToolsVersion": "5.10",
+                    "manifests":
+                    {
+                        "5.10":
+                        {
+                            "packageName": "Toolbox",
+                            "products":
+                            [
+                                {
+                                    "name": "Toolbox",
+                                    "targets":
+                                    [
+                                        "Toolbox"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "Toolbox",
+                                    "name": "Toolbox"
+                                }
+                            ],
+                            "toolsVersion": "5.10"
+                        }
+                    },
+                    "version": "v0.0.1"
                 }
             ]
         },
