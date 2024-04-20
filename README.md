@@ -11,7 +11,7 @@ A collection of my Swift Packages, based on the WWDC21 session [Discover and cur
 - 🔒 [AESCryptable](https://github.com/backslash-f/aescryptable): AES encryption/decryption with random iv
 - 👾 [ALMA](https://github.com/backslash-f/alma): Game Engine for the Apple ecosystem
 - 📒 [AppLogger](https://github.com/backslash-f/applogger): Wrapper around Apple's Swift logging APIs
-- 🔀 [CGKStateMachine](https://github.com/backslash-f/cgkstatemachine): A custom GKStateMachine subclass that allows GKState changes to be observed via Combine
+- 🔀 [CGKStateMachine](https://github.com/backslash-f/cgkstatemachine): Allows GKState changes to be observed via Combine
 - 🌃 [CSKScene](https://github.com/backslash-f/cskscene): Custom SKScene with debugging features and game controller observing capabilities
 - 📱 [Device](https://github.com/backslash-f/device): Retrieves information about the host device
 - ⚙️ [Extensions](https://github.com/backslash-f/extensions): A collection of useful Swift/SwiftUI extensions
