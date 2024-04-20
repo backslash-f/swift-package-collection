@@ -3,10 +3,22 @@
 # Swift Package Collection 📦📦
 A collection of my Swift Packages, based on the WWDC21 session [Discover and curate Swift Packages using Collections](https://developer.apple.com/videos/play/wwdc2021/10197/).
 
-
 >Whether you're curating packages for your team, for education purposes, or to share with other developers, Swift Package Collections can help you discover, explore, and import new packages into your project.
 >
 >Discover improvements in the Swift Package workflow using Collections, and learn how you can curate, create, sign, and share your own Swift Package Collections.
+
+# Packages
+- 🔒 [AESCryptable](https://github.com/backslash-f/aescryptable): AES encryption/decryption with random iv
+- 👾 [ALMA](https://github.com/backslash-f/alma): Game Engine for the Apple ecosystem
+- 📒 [AppLogger](https://github.com/backslash-f/applogger): Wrapper around Apple's Swift logging APIs
+- 🔀 [CGKStateMachine](https://github.com/backslash-f/cgkstatemachine): A custom GKStateMachine subclass that allows GKState changes to be observed via Combine
+- 🌃 [CSKScene](https://github.com/backslash-f/cskscene): Custom SKScene with debugging features and game controller observing capabilities
+- 📱 [Device](https://github.com/backslash-f/device): Retrieves information about the host device
+- ⚙️ [Extensions](https://github.com/backslash-f/extensions): A collection of useful Swift/SwiftUI extensions
+- 🎮 [GCOverseer](https://github.com/backslash-f/gcoverseer): Observe and manage game controllers using Combine
+- 🖼 [SImage](https://github.com/backslash-f/simage): Multiplatform Core Graphics wrapper
+- 🧰 [Toolbox](https://github.com/backslash-f/toolbox): A collection of useful Swift tools
+- 🤑 [SwiftTrader](https://github.com/backslash-f/swift-trader): A package for connecting and trading on crypto exchanges via REST
 
 # Integration
 
