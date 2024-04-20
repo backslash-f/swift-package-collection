@@ -8,6 +8,7 @@
         "automation",
         "backslash-f",
         "bot",
+        "client",
         "Combine",
         "CoreGraphics",
         "crypto",
@@ -19,14 +20,19 @@
         "helper",
         "image manipulation",
         "logger",
+        "network",
+        "Observation",
+        "observable object",
         "OSLog",
         "SpriteKit",
         "state machine",
+        "swift",
         "Swift Crypto",
         "toolbox",
         "trading",
         "unified logging",
-        "util"
+        "util",
+        "websocket"
     ],
     "packages":
     [
@@ -55,13 +61,16 @@
             "url": "https://github.com/backslash-f/gcoverseer.git"
         },
         {
+            "url": "https://github.com/backslash-f/observable-websocket-client.git"
+        },
+        {
             "url": "https://github.com/backslash-f/simage.git"
         },
         {
-            "url": "https://github.com/backslash-f/toolbox.git"
+            "url": "https://github.com/backslash-f/swift-trader.git"
         },
         {
-            "url": "https://github.com/backslash-f/swift-trader.git"
+            "url": "https://github.com/backslash-f/toolbox.git"
         }
     ],
     "author":
