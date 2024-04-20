@@ -16,6 +16,7 @@ A collection of my Swift Packages, based on the WWDC21 session [Discover and cur
 - 📱 [Device](https://github.com/backslash-f/device): Retrieves information about the host device
 - ⚙️ [Extensions](https://github.com/backslash-f/extensions): A collection of useful Swift/SwiftUI extensions
 - 🎮 [GCOverseer](https://github.com/backslash-f/gcoverseer): Observe and manage game controllers using Combine
+- ⚡ [ObservableWebSocketClient](https://github.com/backslash-f/observable-websocket-client): Establishes WebSocket connections, publishes received messages/errors
 - 🖼 [SImage](https://github.com/backslash-f/simage): Multiplatform Core Graphics wrapper
 - 🧰 [Toolbox](https://github.com/backslash-f/toolbox): A collection of useful Swift tools
 - 🤑 [SwiftTrader](https://github.com/backslash-f/swift-trader): A package for connecting and trading on crypto exchanges via REST
